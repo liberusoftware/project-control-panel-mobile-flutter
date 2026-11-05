@@ -5,7 +5,7 @@ class LiberuApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => MaterialApp(
-    title: 'Liberu Boilerplate',
+    title: 'Control Panel',
     theme: ThemeData(
       colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
     ),
@@ -20,7 +20,7 @@ class LiberuApp extends StatelessWidget {
                 Semantics(
                   header: true,
                   child: Text(
-                    'Liberu project boilerplate',
+                    'Control Panel',
                     style: TextStyle(fontSize: 28),
                   ),
                 ),
